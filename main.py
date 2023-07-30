@@ -58,8 +58,7 @@ def get_recipe():
 
 
 def check_file():
-    file_exits = exists('/home/catwarrior/Documents/Proiecte_Facultate_Python/Proiecte_de_tip_C/'
-                        'Shopping_Basket_with_Ingredients/List.json')
+    file_exits = exists('/')
     return file_exits
 
 
